@@ -1,38 +1,302 @@
 .App {
+  justify-content: center;
+  background-color: white;
+}
+
+.sideNav {
+  background: #6DAD9D !important;
+  position: fixed !important;
+}
+
+.imageDiv {
+  height: 170px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+
+.universityBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.basic-container {
+  justify-content: flex-start;
+  margin: 20px 20px 10px;
+  margin-left: 100px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.universityImage {
+  border-radius: 5px;
+  width: 324px;
+  height: 228px;
+}
+
+.alignSelfCenter {
+  align-self: center;
+  font-family: Rufina;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.content-space-between {
+  justify-content: space-between;
+}
+
+.fieldName {
+  margin: 20px 10px;
+  font-size: 20px;
+}
+.smallFieldName {
+  margin-left: 10px;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.universityName {
+  margin: 20px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.inline-block {
+  display: -webkit-box;
+  flex: 1;
+}
+
+.customButton{
+  margin-bottom: 16px;
+  border-color: #6DAD9D;
+  background-color: #6DAD9D;
+}
+
+.ant-btn-primary {
+  border-color: #6DAD9D;
+  background-color: #6DAD9D;
+}
+
+.ant-btn-primary:hover {
+  border-color: #6DAD9D;
+  background-color: #6DAD9D;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.margin-right-30 {
+  margin-right: 30px;
+}
+
+.logout {
+  bottom: 30px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.login-form {
+  /* display: block; */
+  padding-left: 38%;
+  padding-right: 38%;
+  padding-top: 10%;
+  /* width: 50%; */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #6DAD9D;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+#register {
+  align-self: center;
+}
+.text-align-center {
+  text-align: -webkit-center;
+  /* margin-left: 150px; */
+}
+
+.width-350 {
+  margin-left: 110px;
+  margin-right: 110px;
+  align-self: center;
+  width: 350px;
+}
+
+.login-form-button {
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  background: #DADADA;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.ant-modal-body{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-form {
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-pagination-item-active a {
+  color: #fff !important;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ant-pagination-item-active {
+  font-weight: 500;
+  background: #6DAD9D ;
+  border-radius: 40px;
+}
+
+.ant-pagination-prev a, .ant-pagination-next a {
+  color: #6DAD9D;
+  font-weight: bold;
+}
+
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-link-icon, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-link-icon {
+  color: #6DAD9D;
+}
+
+
+.ant-input-affix-wrapper {
+  border-radius: 10px !important;
+}
+
+.product-page {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  position: relative;
+}
+
+.header {
+  padding-left: 2%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #6DAD9D;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction:row;
+}
+
+.header-img {
+  height: 60px;
+  padding-left: 8%;
+}
+
+.header-username {
+  bottom: 50px;
+  align-self: flex-end;
+  float: left;
+}
+
+.button-click {
+  width: 170px;
+  left: 10px;
+  background: #6DAD9D;
   color: white;
+  font-family: 'Rufina';
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 10px;
+  border: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.product-button {
+  float: right;
+  margin-right: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ruler-img {
+  height: 300px;
 }
+
+.ruler-div {
+  padding-left: 30px;
+  padding-top: 30px;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+}
+
+.ruler-info-div {
+  margin: 20px
+}
+
+.ruler-info-d {
+  margin: 5px;
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.info-table-div {
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  bottom: 50px;
+  align-self: flex-end;
+  right: 10px;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.overlayStyle {
+  align-self: flex-end;
+  padding-bottom: 13px;
+  float: right;
+}
+
+.customButton{
+  margin-bottom: 16px !important;
+  border-color: #6DAD9D !important;
+  background-color: #6DAD9D !important;
+}
+

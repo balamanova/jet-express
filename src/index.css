@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.popup {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  display: flex;
+  flex-direction: column;
+  min-width: 50px;
+}
+.popup-content {
+  padding: 5px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(38, 38, 38, 0.2);
+}
+.popup-tip {
+  width: 0;
+  height: 0;
+  align-self: center;
+  /*border-left: 10px solid transparent;*/
+  /*border-right: 10px solid transparent;*/
+  border-top: 10px solid #fff;
+}
